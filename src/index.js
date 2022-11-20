@@ -35,6 +35,7 @@ function onMarkup(arr) {
   console.log(arr.length);
   if (arr.length > 10) {
     countryList.innerHTML = '';
+    countryInfo.innerHTML = '';
     return Notify.info(
       'Too many matches found. Please enter a more specific name.'
     );
